@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Camp_Intro", "CSharp_Camp_Intro\CSharp_Camp_Intro.csproj", "{A4FBA830-ADD1-41DC-9128-7ADD6E3D1A85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp_Camp_Intro", "CSharp_Camp_Intro\CSharp_Camp_Intro.csproj", "{A4FBA830-ADD1-41DC-9128-7ADD6E3D1A85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_Intro", "Class_Intro\Class_Intro.csproj", "{9D07A351-A8BD-4CC1-B621-C2C50493E57A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class_Intro", "Class_Intro\Class_Intro.csproj", "{9D07A351-A8BD-4CC1-B621-C2C50493E57A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_Homework", "Class_Homework\Class_Homework.csproj", "{297F35F4-76E4-4DEE-B4F8-C3FA3759B508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class_Homework", "Class_Homework\Class_Homework.csproj", "{297F35F4-76E4-4DEE-B4F8-C3FA3759B508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For_Loop", "For_Loop\For_Loop.csproj", "{75C97FC2-2399-4DF2-890A-E7FC585589F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "For_Loop", "For_Loop\For_Loop.csproj", "{75C97FC2-2399-4DF2-890A-E7FC585589F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "While_Loop_Homework", "While_Loop_Homework\While_Loop_Homework.csproj", "{26B14A78-71AA-4A42-A107-1101BFEAEDC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "While_Loop_Homework", "While_Loop_Homework\While_Loop_Homework.csproj", "{26B14A78-71AA-4A42-A107-1101BFEAEDC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ternary_Operator_Homework", "Ternary_Operator_Homework\Ternary_Operator_Homework.csproj", "{091F0E3A-5864-4805-B4D0-FA53AD9034BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ternary_Operator_Homework", "Ternary_Operator_Homework\Ternary_Operator_Homework.csproj", "{091F0E3A-5864-4805-B4D0-FA53AD9034BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch_Case_Homework", "Switch_Case_Homework\Switch_Case_Homework.csproj", "{B180CFFD-15DE-43FA-A908-AA337C8CEF6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switch_Case_Homework", "Switch_Case_Homework\Switch_Case_Homework.csproj", "{B180CFFD-15DE-43FA-A908-AA337C8CEF6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{225F0271-31D2-46EE-A0E5-559D0DBF01FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{225F0271-31D2-46EE-A0E5-559D0DBF01FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{EDF8EEC6-7E96-4B89-AAF8-4F4A7A82CF57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{225F0271-31D2-46EE-A0E5-559D0DBF01FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{225F0271-31D2-46EE-A0E5-559D0DBF01FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{225F0271-31D2-46EE-A0E5-559D0DBF01FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF8EEC6-7E96-4B89-AAF8-4F4A7A82CF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF8EEC6-7E96-4B89-AAF8-4F4A7A82CF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF8EEC6-7E96-4B89-AAF8-4F4A7A82CF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF8EEC6-7E96-4B89-AAF8-4F4A7A82CF57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
