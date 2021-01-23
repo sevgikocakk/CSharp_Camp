@@ -6,7 +6,7 @@ namespace Class_Homework
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("****************************KİTAPLIK LİSTESİ*********************\n");
+            Console.WriteLine("****************************KİTAPLIK LİSTESİ************************\n");
 
             Kitaplık Kitap1 = new Kitaplık();
             Kitap1.KitapAdi = "Otostopçunun Galaksi Rehberi";
