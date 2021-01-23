@@ -6,7 +6,7 @@ namespace Class_Intro
     {
         static void Main(string[] args)
         {
-            Console.Write("*****************Kurs Programı**********************\n");
+            Console.Write("*****************Kurs Programı************************\n");
 
             Ogrenci YeniOgrenci = new Ogrenci();
             YeniOgrenci.Adi = "Mehmet";
