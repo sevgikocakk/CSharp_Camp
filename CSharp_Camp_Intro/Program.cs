@@ -6,7 +6,7 @@ namespace CSharp_Camp_Intro
     {
         static void Main(string[] args)
         {
-            //Don't repeat yourself..!
+            //Don't repeat yourself..!!!
             string kategoriEtiketi = "Kategoriler";
             int ogrenciSayisi = 32000;
             double faizOrani = 1.45;
