@@ -25,7 +25,7 @@ namespace Methods
                 Console.WriteLine(Urun.UrunAciklama);
                 Console.WriteLine("---------------------------");
             }
-            Console.WriteLine("**************METODLAR***********");
+            Console.WriteLine("**************METODLAR***************");
             //Instance-örnek
             sepetManager sepetManager = new sepetManager();
             sepetManager.Ekle(urun1);
