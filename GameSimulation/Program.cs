@@ -10,11 +10,11 @@ namespace GameSimulation
 
             Console.WriteLine("\n---------------Oyuncu Bilgileri------------");
 
-            Gamer gamer1 = new Gamer() { GamerName = "Sevgi", GamerLastname = "Koçak" };
+            Gamer gamer1 = new Gamer() { GamerName = "Engin", GamerLastname = "Demirog" , BirthYear = 1985};
             Gamer gamer2 = new Gamer() { GamerName = "Yasin", GamerLastname = "Kargan" };
             Gamer gamer3 = new Gamer() { GamerName = "Can", GamerLastname = "Alter" };
 
-            IGamerServices gamerManager = new GamerManager();
+            IGamerServices gamerManager = new GamerManager(new UserValidationManager());
             gamerManager.Add(gamer1);
             gamerManager.Delete(gamer2);
             gamerManager.Update(gamer3);
@@ -52,6 +52,14 @@ namespace GameSimulation
             campaignManager.Delete(campaign2);
             campaignManager.Update(campaign3);
 
+            Console.WriteLine("\n---------------Kampanyalı Satış Bilgileri--------------");
+            OrderManager orderManager = new OrderManager();
+            orderManager.Add(campaign1);
+            orderManager.Add(campaign2);
+            orderManager.Add(campaign3);
+            orderManager.Delete(campaign1);
+            orderManager.Update(campaign2);
+            
 
 
 

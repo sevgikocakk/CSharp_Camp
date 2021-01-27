@@ -6,9 +6,23 @@ namespace GameSimulation
 {
     class GamerManager : IGamerServices
     {
+        IUserValidationService userValidationService;
+        private IUserValidationService _userValidationService;
+
+        public GamerManager(IUserValidationService userValidationService) 
+        {
+            _userValidationService = userValidationService;
+        }
         public void Add(Gamer gamer)
         {
-            Console.WriteLine(gamer.GamerName+" "+gamer.GamerLastname+" adlı oyuncu kayıt edildi.");
+            if (_userValidationService.Validate(gamer)==true)
+            {
+                Console.WriteLine(gamer.GamerName + " " + gamer.GamerLastname + gamer.BirthYear+" adlı oyuncu kayıt edildi.");
+            }
+            else
+            {
+                Console.WriteLine("Doğrulama Başarız.Kayıt yapılamadı.");
+            }
         }
 
         public void Delete(Gamer gamer)
